@@ -15,15 +15,14 @@ int peakIndex(int arr[], int size)
         {
             end = mid;
         }
-
         mid = start + (end - start) / 2;
     }
     return arr[mid];
 }
 int main()
 {
-    int arr[6] = {0, 1, 3, 2, 2, 1};
-    int peakElement = peakIndex(arr, 6);
+    int arr[10] = {0, 1, 2, 3, 4, 3, 2, 1, 0, 0};
+    int peakElement = peakIndex(arr, 10);
     cout << peakElement << endl;
     return 0;
 }
