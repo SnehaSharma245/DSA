@@ -25,7 +25,7 @@ vector<vector<int>> pairSum(vector<int> &arr, int s)
 
 int main()
 {
-    vector<int> arr = {1, 2, 3, 4, 5, 6};
+    vector<int> arr = {5, 3,2, 4, 1, 6 };
     int s = 7;
     vector<vector<int>> result = pairSum(arr, s);
     for (int i = 0; i < result.size(); i++)
